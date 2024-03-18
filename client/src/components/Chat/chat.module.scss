@@ -1,0 +1,13 @@
+.chat {
+    display: flex;
+    height: calc(100vh - 60px);
+    max-width: 100vw;
+}
+
+.dNone {
+    display: none;
+}
+
+.flex1 {
+    flex: 1;
+}

@@ -1,0 +1,13 @@
+.poll {
+    padding: 20px 10px;
+    border-top: 1px solid var(--gray-2);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+
+    &:hover {
+        background-color: var(--gray-2);
+    }
+
+    transition: background-color 0.4s;
+}

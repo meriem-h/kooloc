@@ -1,0 +1,20 @@
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.isFinalized {
+    // background-color: #CFF5DB !important;
+    color: var(--gray-1);
+    &:hover {
+        // background-color:#a3f1bc !important
+    }
+}
+
+.isNotFinalized {
+    background-color: #F9DC5C !important;
+    color: var(--gray-1);
+    &:hover {
+        background-color:#f8d227 !important
+    }
+}

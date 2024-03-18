@@ -1,0 +1,43 @@
+.item {
+    color: red;
+    padding: 10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    text-align: left;
+
+}
+
+td {
+    padding: 10px;
+    font-weight: 700;
+}
+
+tbody{
+    tr:hover{
+        cursor: pointer;
+        background-color: #000 !important;
+        color: #FFF;
+    }
+    
+}
+
+.isComplete {
+    background-color: #F9DC5C;
+}
+
+.isOnSpend {
+    background-color: #CFF5DB;
+    color: var(--gray-1);
+    &:hover {
+        background-color:#CFF5DB !important;
+        color: #000;
+    }
+}

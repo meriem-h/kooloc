@@ -1,0 +1,19 @@
+.appNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid var(--gray-2);
+}
+
+.appContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    border: 1px solid var(--gray-2);
+    height: 30px;
+}

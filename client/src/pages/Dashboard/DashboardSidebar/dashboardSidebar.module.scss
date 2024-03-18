@@ -1,0 +1,64 @@
+.sidebar {
+    max-width: 400px;
+    width: 240px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &.closeMenu {
+        display: none;
+    }
+}
+
+.gradiant2 {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.gradiant {
+    background: #667EEA;
+    background: linear-gradient(to right, #84fab0 0%, #8fd3f4 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &:hover {
+        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    }
+}
+
+.listGroup {
+    margin-top: 50px;
+}
+
+.listItem {
+    padding: 1.25rem 0rem;
+}
+
+.logout {
+    cursor: pointer;
+    color: var(--gray-3);
+
+    &:hover {
+        color: red;
+    }
+}
+
+.link {
+    color: var(--gray-3);
+
+    &:hover {
+        color: #FFF;
+    }
+}
+
+@media (max-width: 575px) {
+    .sidebar {
+        position: absolute;
+        max-width: none;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
+    }
+}

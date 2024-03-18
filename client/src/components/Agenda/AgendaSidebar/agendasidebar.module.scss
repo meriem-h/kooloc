@@ -1,0 +1,68 @@
+.sidebar-header {
+    height: 43px;
+    width: 100px;
+}
+
+.date {
+    background-color: #efefef;
+    width: 100%;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.event_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid var(--gray-2);
+    border-bottom: 1px solid var(--gray-2);
+}
+
+.event_title:hover {
+    background-color: #efefef;
+}
+
+.event_p {
+    width: 100%;
+    margin-left: 5px;
+}
+
+.btn_delete {
+    background-color: rgb(253, 163, 163);
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 3px;
+    box-shadow: 0px 0.3259259164px 0.7333333492px 0px rgb(0 0 0 / 12%), 0px 1.5407407284px 2.8666665554px 0px rgb(0 0 0 / 7%), 0px 4px 9px 0px rgb(0 0 0 / 5%);
+}
+
+.btn_delete:hover {
+    background-color: rgb(246, 114, 114);
+}
+
+.eventDetail {
+    background-color: #fffadf;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 1rem;
+    border-radius: 3px;
+    box-shadow: 0px 0.3259259164px 0.7333333492px 0px rgb(0 0 0 / 12%), 0px 1.5407407284px 2.8666665554px 0px rgb(0 0 0 / 7%), 0px 4px 9px 0px rgb(0 0 0 / 5%);
+
+}
+
+.img{
+    height: 70%;
+    width: 70%;
+}
+
+.empty{
+    text-align: center;
+}
+// eventDetail

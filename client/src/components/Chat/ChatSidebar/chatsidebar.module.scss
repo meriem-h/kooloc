@@ -1,0 +1,26 @@
+.chatSidebar {
+    width: 300px;
+    border-right: 1px solid var(--gray-2);
+    max-height: 88vh;
+}
+
+.chatSidebarHeader{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+.chatSidebarBody {
+    height: 90%;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.chatSidebarFooter {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+// p-10 d-flex align-items-center

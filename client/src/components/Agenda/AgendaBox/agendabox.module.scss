@@ -1,0 +1,35 @@
+:root {
+    --fc-button-text-color: #000000;
+    --fc-button-bg-color: #CFF5DB;
+    --fc-button-hover-bg-color: #4df883;
+    --fc-button-active-bg-color: #27c559;
+    --fc-today-bg-color: #cff5db6d;
+    --fc-event-bg-color: #b6eff1;
+    // --fc-event-bg-color: #fffadf;
+    --fc-event-border-color: #ffffff;
+    --fc-event-text-color: #000000;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.message {
+    color: #77afb6;
+    font-size: 12px;
+}
+
+.allField {
+    color: #d75252;
+}
+
+.disableHover tr:hover {
+    cursor: default !important;
+    background-color: transparent !important;
+    color: inherit;
+}
+
+
+// .fc-event fc-event-start fc-event-end fc-event-past fc-daygrid-event fc-daygrid-block-event fc-h-event

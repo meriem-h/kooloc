@@ -1,0 +1,17 @@
+tr:hover {
+    cursor: pointer;
+}
+
+.profilBody {
+    padding: 20px;
+    font-size: large;
+}
+
+.profilBody > * {
+    margin: 10px
+}
+
+.enregistrer {
+    margin : 20px auto;
+    width: fit-content;
+}

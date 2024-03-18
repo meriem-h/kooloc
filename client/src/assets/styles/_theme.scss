@@ -1,0 +1,218 @@
+.bigTitle {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+.btn {
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 3px;
+
+    &.btn-primary {
+
+        background-color: #000;
+        color: #FFF;
+        box-shadow: 0px 0.32592591643333435px 0.7333333492279053px 0px rgb(0 0 0 / 12%), 0px 1.540740728378296px 2.866666555404663px 0px rgb(0 0 0 / 7%), 0px 4px 9px 0px rgb(0 0 0 / 5%);
+
+        &:hover {
+            background-color: #1a1a1a;
+        }
+
+        &.success {
+            background-color: #CFF5DB;
+
+            &:hover {
+                background-color: #4df883;
+
+            }
+        }
+    }
+
+    &.btn-warning {
+        font-size: 1rem;
+
+        padding: 5px;
+
+        background-color: #E4E4FD;
+        box-shadow: 0px 0.32592591643333435px 0.7333333492279053px 0px rgb(0 0 0 / 12%), 0px 1.540740728378296px 2.866666555404663px 0px rgb(0 0 0 / 7%), 0px 4px 9px 0px rgb(0 0 0 / 5%);
+
+        &:hover {
+            background-color: #a5a5ff;
+        }
+    }
+
+    &.btn-danger {
+        font-size: 1rem;
+
+        padding: 5px;
+
+        background-color: rgb(253, 163, 163);
+        box-shadow: 0px 0.32592591643333435px 0.7333333492279053px 0px rgb(0 0 0 / 12%), 0px 1.540740728378296px 2.866666555404663px 0px rgb(0 0 0 / 7%), 0px 4px 9px 0px rgb(0 0 0 / 5%);
+
+        &:hover {
+            background-color: rgb(255, 95, 95);
+
+        }
+    }
+
+    &.btn-success {
+        font-size: 1rem;
+
+        padding: 5px;
+
+        background-color: #CFF5DB;
+        box-shadow: 0px 0.32592591643333435px 0.7333333492279053px 0px rgb(0 0 0 / 12%), 0px 1.540740728378296px 2.866666555404663px 0px rgb(0 0 0 / 7%), 0px 4px 9px 0px rgb(0 0 0 / 5%);
+
+        &:hover {
+            background-color: #4df883
+        }
+    }
+}
+
+.pageContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-page {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar-page {
+    width: 300px;
+    border-right: 1px solid var(--gray-2);
+    max-height: 88vh;
+
+    &>.sidebar-header {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        position: sticky;
+    }
+
+    &>.sidebar-body {
+        height: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        overflow-y: auto;
+
+        &>div:last-child {
+            border-bottom: 1px solid var(--gray-2);
+        }
+    }
+
+    &>.sidebar-footer {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.box-page {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-height: 93vh;
+
+    &.d-none {
+        display: none;
+    }
+
+    &>.box-header {
+        background-color: #000;
+        color: #FFF;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        &>.box-back {
+            color: var(--gray-2);
+            cursor: pointer;
+
+            &:hover {
+                color: #FFF;
+            }
+        }
+    }
+
+    &>.box-body {
+        background-color: #FFF;
+        flex: 1;
+        overflow-y: auto;
+
+    }
+
+    &>.box-footer {
+        padding: 20px;
+        background-color: #FFF;
+    }
+
+}
+
+
+
+
+input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: var(--gray-2);
+    font-size: 20px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.active {
+    color: #FFF !important;
+}
+
+
+@media (max-width: 575px) {
+
+    .bigTitle {
+        margin-top: 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+}

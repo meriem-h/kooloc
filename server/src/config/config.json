@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "ced",
+    "password": "password",
+    "database": "coloc",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "ced",
+    "password": "password",
+    "database": "coloc",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ced",
+    "password": "password",
+    "database": "coloc",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

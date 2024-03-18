@@ -1,0 +1,28 @@
+.homeNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    // border: 1px solid var(--gray-2);
+    background-color: #000;
+
+    & > a {
+        color: var(--gray-2) !important;
+    }
+
+}
+
+.homeContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.gradiant {
+    background: #667EEA;
+    background: linear-gradient(to right, #84fab0 0%, #8fd3f4 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,10 @@
+.DashboardContainer {
+    min-height: 100vh;
+    display: flex;
+}
+
+.dashboardContent {
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
